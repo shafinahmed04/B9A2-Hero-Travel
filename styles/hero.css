@@ -5,12 +5,14 @@
 .head-logo{
     /* border: 1px solid#131318; */
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
     padding-left: 127px;
-    gap: 16px;
+    /* gap: 400px; */
 }
 .section-title{
-    padding-right: 0%;
+    padding-left: 0%;
+    /* padding-right: 0px; */
     color: #131318;
     font-family: Mulish;
     font-size: 36px;
@@ -18,32 +20,34 @@
 }
 .logo{
     padding-top: 30px;
+
 }
 .travel{
     color: #FF5400;
 }
-nav {
-    display: flex;
-    gap: 398px;
-    justify-content: space-between;
-    align-items: center;
+.head2 {
+
+    gap: 300px;
+   
+    align-content: center;
     
 }
-nav>ul {
+.head2>ul {
     display: flex;
     padding-right: 127px;
+
     color: var(--Dark-02, #424247);
     text-align: center;
     font-family: Mulish;
     font-size: 18px;
     font-weight: 400;
 }
-nav li {
+.head2 li {
     list-style: none;
     margin-right: 30px;
 
 }
-nav li a {
+.head2 li a {
     text-decoration: none;
     color: #424247;
 }
@@ -51,6 +55,7 @@ nav li a {
 .banner {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 16px;
+    justify-content: space-between;
     align-items: center;
     width: 1170px;
     height: 500px;
@@ -73,6 +78,7 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
 }
+
 .button-container{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -107,8 +113,215 @@ button{
     border-radius: 8px;
     background: #FF5400;
 }
+/* section styles */
 
+.section-container{
+    display: flex;
+    margin-top: 100px;
+}
+.section-head h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-head>ul{
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.section-head p {
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.section-head{
+    padding-left: 135px;
+    width: 1440px;
+    /* height: 6940px; */
+}
+.section-img{
+    padding-right: 135px;
+}
+/* section2-styles */
+.section2-head{
+    margin-top: 100px;
+    text-align: center;
+}
+.section2-head h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section2-head p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.main-img-section{
+    row-gap: 24px;
+}
+.section-row{
+    padding-left: 135px;
+    margin: 25px
+}
+.section2-row{
+    padding-left: 165px;
+    margin: 25px
+}
+.section3-row{
+    padding-left: 170px;
+}
+/* card-styles */
+.card-container{
+    display: flex;
+    padding-left: 135px;
+    gap: 24px;
+    margin-top: 48px;
+    align-content: center;
+}
+.card-head{
+    text-align: center;
+    margin-top: 100px;
+}
+.card-head h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.card-head p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card1{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card2-container{
+        padding-left: 433px;
+}
+.card3{
+    margin-top: 24px;
 
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.last-section{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 135px;
+    gap: 24px;
+}
+.Save up to 70%{
+    width: 324px;
+    height: 120px;
+    position: static;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    bottom: 1000px;
+}
+.last-head{
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+#hr{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.last-head h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.input{
+    display: grid;
+    grid-template-columns: auto;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+/* footer styles */
+.main-footer{
+    width: 100%;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer1{
+    padding-top: 110px;
+    margin-top: 110px;
+    text-align: center;
+}
+.footer1 h3{
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer1 p{
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+hr{
+    text-align: center;
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.last-footer{
+    color: #131318;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
+.last-footer p{
+    color: #5A5A5D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
 
 
 
@@ -119,16 +332,32 @@ button{
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px){
-    .head-logo{
-        display: flex;
-        padding-left: 20px;
-        gap: 16px;
+
+    header{
+        padding: 20px;
     }
-    .section-title{
-        color: #131318;
-    font-family: Mulish;
-    font-size: 25px;
-    font-weight: 800;
+    .banner,
+    .section-container {
+        flex-direction: column;
+
+    }
+    .main-img-section{
+        padding-left: 0px;
+    }
+    .section-row{
+        padding-left: 0px;
+    }
+    .section2-row{
+        padding-left: 0px;
+    }
+    .section3-row{
+        padding-left: 0px;
+    }
+    .section-container{
+        margin: 0 auto;
+    }
+    .banner {
+
     }
 
 }
